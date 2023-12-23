@@ -31,9 +31,8 @@ buton.addEventListener('click', () => {
                 div.innerText = oldQuote;
                 historyContainer.appendChild(div);
             })
-                /
 
-           
+        })
            .catch((err) => {
             error.innerText = err;
         })
